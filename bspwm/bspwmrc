@@ -11,7 +11,6 @@
 #  made by jusplp (https://github.com/JusPLP)
 
 
-# desktop and monitor
 bspc monitor -d                         
 
 # gap and padding
@@ -36,7 +35,6 @@ bspc config gapless_monocle        false
 ## RULES ##
 
 
-# floating windows (with "xprop | grep WM_CLASS" you can see the name for the application)
 bspc rule -a "Psensor" state=floating rectangle=900x550+0+0 center=true
 bspc rule -a "Pavucontrol" state=floating rectangle=800x500+0+0 center=true
 bspc rule -a "Viewnior" state=floating rectangle=900x600+0+0 center=true
@@ -44,14 +42,12 @@ bspc rule -a "Nitrogen" state=floating rectangle=900x600+0+0 center=true
 bspc rule -a "Soundux" state=floating rectangle=900x600+0+0 center=true
 bspc rule -a "VirtualBox Manager" rectangle=900x500+0+0 state=floating center=true
 
-# if window is floating
 bspc rule -a "Alacritty" rectangle=700x500+0+0 center=true
 bspc rule -a "kitty" rectangle=700x500+0+0 center=true
 bspc rule -a "Brave-browser" rectangle=1300x800+0+0 center=true
 bspc rule -a "Spotify" rectangle=1300x800+0+0 center=true
 bspc rule -a "Pcmanfm" rectangle=1000x700+0+0 center=true
 
-# programs open automatically on the specified desktop
  # desktop 1
 bspc rule -a "steam" desktop =^1 follow=true
 bspc rule -a "yuzu" desktop =^1 follow=true
@@ -83,7 +79,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 feh --bg-fill ~/wallpaper/walls/gas2.jpg
 
 # launch polybar
-sh /home/JusPLP/.config/polybar/launch.sh
+sh ~/.config/polybar/launch.sh
 
 # launch picom
 picom
