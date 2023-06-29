@@ -68,17 +68,13 @@ super + a
 super + v
 	CM_LAUNCHER=rofi clipmenu
 
-# rofi wallpaper (change /wallpaper/walls/* to your wallpaper directory !! with "*" !!)
+# rofi wallpaper
 super + s
 	ls $HOME/wallpaper/walls/* | rofi -dmenu | xargs feh --bg-fill  
 
 
 ## OTHER ##
 
-
-# LUIS QUANDO E VAL TAtui
-super + alt + p
-	echo -n "LUIS QUANDO E VAL TAtui" | xclip -selection c
 
 # screenshot (scrot (change "/home/JusPLP/Pictures/Screenshots/" to your Screenshot directory))
 Print
