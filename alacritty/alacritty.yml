@@ -1,0 +1,55 @@
+
+
+#         _                 _ _   _
+#    __ _| | __ _  ___ _ __(_) |_| |_ _   _
+#   / _` | |/ _` |/ __| '__| | __| __| | | |
+#  | (_| | | (_| | (__| |  | | |_| |_| |_| |
+#  \__,_|_|\__,_|\___|_|  |_|\__|\__|\__, |
+#                                    |___/
+#
+#  made by jusplp (https://github.com/JusPLP)
+
+
+## SETTINGS ##
+
+
+# to see all the fonts that installed on your system, use "fc-list" and for one font: fc-match FontName -s
+font:
+  normal:
+    family: monospace
+
+    style: Regular
+
+env:
+  TERM:                              alacritty
+  WINIT_X11_SCALE_FACTOR:            '1.0'
+  
+window:
+  dimensions:
+    columns:                         82
+    lines:                           23
+
+  padding:
+     x:                              20
+     y:                              20
+
+  decorations:                       full
+  startup_mode:                      Windowed
+  dynamic_title:                     true
+
+  history:                           10000
+  multiplier:                        3
+
+opacity:                             1
+
+cursor:
+  style:
+    shape:                           Block
+    blinking:                        On
+
+  unfocused_hollow:                  false
+
+live_config_reload:                  true
+
+import:
+  - ~/.config/alacritty/gruvbox.yml
