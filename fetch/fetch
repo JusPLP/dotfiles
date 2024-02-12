@@ -1,0 +1,10 @@
+#!/bin/sh
+
+conf() {
+  printf "
+  ／l、     $(c 0 34) kernel:$(c 0 37) $(Kernel)
+（ﾟ､ ｡ ７   $(c 0 33) os:    $(c 0 37) arch btw
+ l  ~ ヽ    $(c 0 36) de/wm: $(c 0 37) $(Desktop)
+ じしf_,)ノ $(c 0 35) shell: $(c 0 37) $(Shell) 
+  \n"
+}

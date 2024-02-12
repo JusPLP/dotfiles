@@ -1,0 +1,91 @@
+
+
+#       _                 _
+#    __| |_   _ _ __  ___| |_ _ __ ___
+#   / _` | | | | '_ \/ __| __| '__/ __|
+#  | (_| | |_| | | | \__ \ |_| | | (__
+#   \__,_|\__,_|_| |_|___/\__|_|  \___|
+#
+#  made by jusplp (https://github.com/JusPLP)
+
+
+[global]
+    monitor = 0
+    follow = mouse
+    width = 265
+    height = 380
+    origin = bottom-right
+    offset = 20x20
+    scale = 0
+    notification_limit = 6
+    progress_bar = true
+    indicate_hidden = yes
+    transparency = 0
+    separator_height = 4
+    padding = 10
+    horizontal_padding = 10
+    text_icon_padding = 0
+    frame_width = 4
+    frame_color = "#928374"
+    gap_size = 0
+    separator_color = frame
+    sort = yes
+    idle_threshold = 120
+    font = Source Sans Pro 10
+    line_height = 0
+    markup = full
+    format = "<span foreground='#ae9d83'><b>%s %p</b></span>\n%b"
+    alignment = center
+    vertical_alignment = center
+    show_age_threshold = 60
+    ellipsize = middle
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = false
+    show_indicators = yes
+    icon_position = left
+    min_icon_size = 0
+    max_icon_size = 70
+    sticky_history = yes
+    history_length = 20
+    always_run_script = true
+    corner_radius = 0
+    ignore_dbusclose = false
+    force_xinerama = false
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
+
+[urgency_low]
+    format = "   New Notification:\n<b>%s</b>\n%b"
+    background = "#282828"
+    foreground = "#ae9d83"
+    timeout = 3
+
+[urgency_normal]
+    format = "   New Notification:\n<b>%s</b>\n%b"
+    background = "#282828"
+    foreground = "#ae9d83"
+    timeout = 3
+
+[urgency_critical]
+    format = "   Important:\n<b>%s</b>\n%b"
+    background = "#282828"
+    foreground = "#ae9d83"
+    frame_color = "#ae9d83"
+    timeout = 10
+
+[Spotify]
+    appname = Spotify
+    alignment = left
+    format = "  Now Playing:\n<b>%s</b>\n<i>%b</i>"
+    icon_position = right
+    max_icon_size = 70
+    timeout = 3
+
+[Discord]
+   appname = discord
+   alignment = center
+   format = "<b>%s</b>\n%b"
+   icon_position = left
+   timeout = 2
