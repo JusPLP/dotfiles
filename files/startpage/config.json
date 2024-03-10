@@ -1,0 +1,89 @@
+{
+  "squares": [
+    { "name": "media",
+      "color": "#ae9d83",
+      "links": [
+        {"name": "Reddit", "url": "https://www.reddit.com/"},
+        {"name": "Netflix", "url": "https://netflix.com" },
+        {"name": "Youtube", "url": "https://youtube.com" },
+        {"name": "HDFilme", "url": "https://hdfilme.best/" },
+	{"name": "Spotify", "url": "https://open.spotify.com/" },
+        {"name": "Aniworld", "url": "https://aniworld.to/" }
+     ]
+    },
+    { "name": "work",
+      "color": "#ae9d83",
+      "links": [
+	{"name": "WhatsApp", "url": "https://web.whatsapp.com/" },
+        {"name": "ChatGPT", "url": "https://chat.openai.com/"},
+        {"name": "Github", "url": "https://github.com" },
+        {"name": "Gmail", "url": "http://gmail.com/"},
+        {"name": "Wallpaper", "url": "https://gruvbox-wallpapers.pages.dev/" }
+     ]
+    },
+    { "name": "rice",
+      "color": "#ae9d83",
+      "links": [
+        {"name": "Awesome Ricing", "url": "https://github.com/fosslife/awesome-ricing"},
+        {"name": "Terms are sexy", "url": "https://github.com/k4m4/terminals-are-sexy"},
+        {"name": "Awesome Font", "url": "https://fontawesome.com/search?o=r&m=free"},
+	{"name": "Awesome Bash", "url": "https://github.com/awesome-lists/awesome-bash"},
+	{"name": "Nerd Fonts", "url": "https://www.nerdfonts.com/cheat-sheet"}
+     ]
+    },
+    {
+      "name": "other",
+      "color": "#ae9d83",
+      "links": [
+        {"name": "r/unixporn", "url": "https://www.reddit.com/r/unixporn/" },
+	{"name": "Stylelish", "url": "https://userstyles.org/"},
+	{"name": "Gruvbox", "url": "https://github.com/morhetz/gruvbox"},
+	{"name": "bspwm basics", "url": "https://dharmx.is-a.dev/bspwm-basics/"},
+        {"name": "osu.ppy", "url": "https://osu.ppy.sh/home/" }
+     ]
+    }
+  ],
+  "linkInNewTab": true,
+  "title": "Home",
+  "searchEngine":"Google",
+  "user": "JusPLP",
+  "disableMessage": false,
+  "disableDate": true,
+  "disableSearchBar": true,
+  "disable24Hour": true,
+  "disableWeather": true,
+  "timeZone": "Europe/Berlin",
+  "weatherConf": {
+    "location": "Germany",
+    "unit": "cel"
+  },
+  "settingsIcon": true,
+  "style": {
+    "backgroundColor": "#282828",
+    "messageColor": "#ae9d83",
+    "dateColor": "#ae9d83",
+    "lineColor": "#ae9d83",
+    "weatherColor": "#d9d9d9",
+    "searchColor": "#ae9d83",
+    "searchBackgroundColor": "#242424",
+    "squareColor": "#ae9d83",
+    "squareBackgroundColor": "#3c3836",
+    "autocompleteHighlightBackgroundColor": "#3B3B3B"
+  },
+  "quickLinks": {
+    "r": "https://reddit.com",
+    "g": "https://github.com",
+    "y": "https://youtube.com",
+    "d": {
+      "URL": "https://duckduckgo.com",
+      "Search": "/?q="
+    },
+    "b": "https://bing.com",
+    "p": "https://startpage.com",
+    "s": "https://stackoverflow.com",
+    "w": {
+      "URL":"https://wikipedia.org/wiki",
+      "Search": "/Special:Search?search="
+    }
+  }
+}

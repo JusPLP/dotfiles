@@ -1,0 +1,9 @@
+#!/bin/sh
+
+conf() {
+   printf "  
+  /\_/\     $(c 0 35) kr$(c 0 0) $(Kernel)
+  ( ._.)    $(c 0 33) os$(c 0 0) arch btw
+  / >  >    $(c 0 34) wm$(c 0 0) $(Desktop)
+\n"
+}
